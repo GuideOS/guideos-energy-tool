@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=GuideOS Energie-Tool
-Comment=Wechsle einfach zwischen den Energie-Modi
-Exec=/bin/guideos-energie-tool.sh
-Icon=/usr/share/pixmaps/guideos-energie-tool.png
-Terminal=false
-Type=Application
-Categories=GuideOS;
