@@ -16,5 +16,6 @@ override_dh_install:
 	install -m 644 guideos-energy-tool.png debian/$(PACKAGE)/usr/share/icons/hicolor/256x256/guideos-energy-tool.png
 	install -m 644 guideos-energy-tool.svg debian/$(PACKAGE)/usr/share/icons/hicolor/scalable/apps/guideos-energy-tool.svg
 
+	./create_desktop_files.sh
 
 	dh_install
